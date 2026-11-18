@@ -71,6 +71,7 @@ Paste the result into FLASK_SECRET_KEY.
 Delete old private-key files:
 
 ```bash
+mkdir -p keys
 find keys -maxdepth 1 -type f -name '*.pem' -delete
 ```
 
